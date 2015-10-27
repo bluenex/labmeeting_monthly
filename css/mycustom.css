@@ -1,0 +1,90 @@
+/* cover logo */
+.logoaim {
+	position: fixed;
+	top: -110%;
+	right: 15%;
+	/*bottom: -110%;*/
+}
+.logomu {
+	position: fixed;
+	top: -110%;
+	right: 5%;
+	/*bottom: -110%;*/
+}
+.aimbot {
+	position: fixed;
+	bottom: -115%;
+	left: 5%;
+	transform: scaleX(-1);
+	transform: rotate(-15deg);
+}
+.headertext p {
+	position: fixed;
+	top: -95%;
+	right: 25%;
+	text-align: right;
+	font-size: x-large;
+	font-weight: 700;
+	border-bottom: 3px solid #eee;
+	width: 25%;
+}
+
+/* custom style */
+red {
+	color:#EA4335;
+}
+blue {
+	color: #4285F4;
+}
+yellow {
+	color: #FBBC05;
+}
+green {
+	color: #34A853;
+}
+black {
+	color: black;
+}
+white {
+	color: white;
+}
+.blk2 {
+	width: 500px;
+	display: inline-block;
+	vertical-align: top !important;
+}
+.blk3 {
+	width: 330px;
+	display: inline-block;
+	vertical-align: top !important;
+}
+.blk4 {
+	width: 250px;
+	display: inline-block;
+	vertical-align: top !important;
+}
+.uw {
+	border-bottom: 3px solid #EEE !important;
+}
+.ub {
+	border-bottom: 3px solid #333 !important;
+}
+.left {
+	text-align: left;
+}
+.right {
+	text-align: right;
+}
+.tab {
+	text-indent: 50px;
+}
+.ulul {
+	margin-top: 8px !important; 
+	line-height: 33px !important;
+	font-size: x-large !important;
+}
+.no-img-effect {
+	border: none !important;
+	background: none !important;
+	box-shadow: none !important;
+}
