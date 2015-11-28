@@ -48,17 +48,17 @@ black {
 white {
 	color: white;
 }
-.blk1-65 {
+.blk-65 {
 	width: 65%;
 	display: inline-block;
 	vertical-align: top !important;
 }
-.blk1-70 {
+.blk-70 {
 	width: 70%;
 	display: inline-block;
 	vertical-align: top !important;
 }
-.blk1-75 {
+.blk-75 {
 	width: 75%;
 	display: inline-block;
 	vertical-align: top !important;
