@@ -8,11 +8,11 @@
     <title>Landing page</title>
 
     <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon3.png">
-    
+
     <!-- Bootstrap -->
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
     <!--<link href="css/bootstrap/bootstrap-theme.min.css" rel="stylesheet">-->
-    
+
     <!-- fontawesome -->
     <link rel="stylesheet" href="css/fontawesome/font-awesome.min.css">
 
@@ -26,24 +26,40 @@
   </head>
   <style>
     .container a {
-      height: 65px;
-      font-size: 25px;
+      height: 55px;
+      font-size: 20px;
       font-weight: 700;
       color: #444;
-      padding-top: 15px;
+      padding-top: 13px;
+    }
+
+    .btn-landing {
+      margin: 0 15px 0px 0;
+    }
+
+    .event_header {
+      color: #EEE;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      border-bottom: solid 2px #EEE;
+      width: 50%;
+
     }
   </style>
   <body style="background-color:#222">
-    <div class="container" style="margin-top:9em">
+    <div class="container" style="margin-top:4em">
       <h1 class="blk1-70" style="font-size:60px; font-weight:700; color:rgba(15, 159, 255, 1)">Landing page for reveal.js presentation slides</h1>
-      <br><br>
-      <p>
-      <a class="btn btn-default btn-lg" href="weekly/week_8.html">Labmeeting Weekly</a>
-      &nbsp;&nbsp;
-      <a class="btn btn-default btn-lg" href="monthly/month_2.html" role="button">Labmeeting Monthly</a>
-      &nbsp;&nbsp;
-      <a class="btn btn-default btn-lg" href="japExchange/jap_1.html" role="button">Japan Exchange</a>
-      </p>
+
+      <h1 class="event_header">Lab Meeting</h1>
+        <a class="btn btn-default btn-lg btn-landing" href="weekly/week_8.html">Labmeeting Weekly</a>
+        <a class="btn btn-default btn-lg btn-landing" href="monthly/month_3.html" role="button">Labmeeting Monthly</a>
+
+      <h1 class="event_header">Japan Exchange</h1>
+        <a class="btn btn-default btn-lg btn-landing" href="japExchange/labintro.html" role="button">Introduction to AIM LAB</a>
+        <a class="btn btn-default btn-lg btn-landing" href="japExchange/mywork.html" role="button">My work</a>
+
+      <h1 class="event_header">Semester Progress</h1>
+        <a class="btn btn-default btn-lg btn-landing" href="semester/sem_1-2015.html">Progress 1-2015</a>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

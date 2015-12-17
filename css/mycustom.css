@@ -72,11 +72,18 @@ white {
 	width: 330px;
 	display: inline-block;
 	vertical-align: top !important;
+	/*margin-bottom: 10px !important;*/
 }
 .blk4 {
 	width: 250px;
 	display: inline-block;
 	vertical-align: top !important;
+}
+.blk4L {
+	width: 250px;
+	display: inline-block;
+	vertical-align: top !important;
+	margin: 0 10px 0 !important;
 }
 .uw {
 	border-bottom: 3px solid #EEE !important;
@@ -102,4 +109,12 @@ white {
 	border: none !important;
 	background: none !important;
 	box-shadow: none !important;
+}
+.caption {
+	font-size: 70% !important;
+	margin-top: -6px !important;
+	font-style: italic !important;
+}
+.vspace {
+	min-height: 40px !important;
 }
