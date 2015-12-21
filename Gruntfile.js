@@ -128,7 +128,7 @@ module.exports = function(grunt) {
 				tasks: 'css-core'
 			},
 			html: {
-				files: [ 'index.html', 'monthly/*.html', 'weekly/*.html', 'japExchange/*.html', 'css/mycustom.css']
+				files: [ 'index.html', 'monthly/*.html', 'weekly/*.html', 'japExchange/*.html', 'semester/*.html', 'css/mycustom.css']
 			}
 		}
 
