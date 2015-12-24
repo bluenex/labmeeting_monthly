@@ -298,3 +298,12 @@ html {
 
 .reveal small code {
   vertical-align: baseline; }
+  
+/*********************************************
+ * CUSTOM
+ *********************************************/  
+  
+ .reveal .slides {
+  outline: solid #ccc 2px;
+  outline-offset: 90px; 
+}   
