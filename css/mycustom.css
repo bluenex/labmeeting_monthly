@@ -48,6 +48,21 @@ black {
 white {
 	color: white;
 }
+.blk-50 {
+	width: 50%;
+	display: inline-block;
+	vertical-align: top !important;
+}
+.blk-55 {
+	width: 55%;
+	display: inline-block;
+	vertical-align: top !important;
+}
+.blk-60 {
+	width: 60%;
+	display: inline-block;
+	vertical-align: top !important;
+}
 .blk-65 {
 	width: 65%;
 	display: inline-block;
