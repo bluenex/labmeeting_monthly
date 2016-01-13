@@ -130,6 +130,11 @@ white {
 	margin-top: -6px !important;
 	font-style: italic !important;
 }
+.captionp {
+	font-size: 70% !important;
+	margin-top: -20px !important;
+	font-style: italic !important;
+}
 .vspace {
 	min-height: 40px !important;
 }
